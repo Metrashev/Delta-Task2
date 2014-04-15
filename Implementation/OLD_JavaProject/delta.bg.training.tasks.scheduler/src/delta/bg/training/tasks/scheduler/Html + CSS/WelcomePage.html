@@ -36,17 +36,14 @@
 </br>
 
 <div class="textStyle">
-Work places count: <select>
+Work places count: <select name="workPacesCount">
   <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-</select>
+  </select>
 </div>
 <br>
 </br>
 <div class="textStyle">
-Employee min work hours (for 2 weeks): <select>
+Employee min work hours (for 2 weeks): <select name="EmployeeMinWorkHours">
   <option value="1">1</option>
   
 </select>
@@ -55,7 +52,7 @@ Employee min work hours (for 2 weeks): <select>
 <br>
 </br>
 <div class="textStyle">
-Employee max work hours (for 2 weeks): <select>
+Employee max work hours (for 2 weeks): <select name="EmployeeMaxWorkHours">
 <option value="1">1</option>
 </select>
 </div>
@@ -63,7 +60,7 @@ Employee max work hours (for 2 weeks): <select>
 </br>
 <div>
 	<span class="textStyle">Employees</span> 
-	<input type="submit" value="Add" class="formatButton" onclick="window.open('AddNewEployee.html')"/>
+	<input type="submit" value="Add" name="AddEmployees" class="formatButton"/>
 </div>
 <div>
 <ul>
@@ -76,7 +73,7 @@ Employee max work hours (for 2 weeks): <select>
 <br>
 </br>
 <div class="textStyle">
-Shifts <input type="button" value="Add" class="formatButton"/>
+Shifts <input type="button" value="Add" name="AddShifts" class="formatButton"/>
 </div>
 <br>
 </br>
@@ -91,18 +88,18 @@ Shifts <input type="button" value="Add" class="formatButton"/>
 <tr class="formatSecondLineTable">
 <td class="formatTable">Morning</td>
 <td class="formatTable">9-12</td>
-<td><input type="button" value="Edit" class="formatButtonTable"/>
+<td><input type="button" value="Edit" name="EditShiftMorning" class="formatButtonTable"/>
 </td>
-<td><input type="button" value="Delete" class="formatButtonTable"/>
+<td><input type="button" value="Delete" name="DeleteShiftMorning" class="formatButtonTable"/>
 </td>
 </tr>
 
 <tr>
 <td class="formatTable">Evening</td>
 <td class="formatTable">13-18</td>
-<td><input type="button" value="Edit" class="formatButtonTable"/>
+<td><input type="button" value="Edit" name="EditShiftEvening" class="formatButtonTable"/>
 </td>
-<td><input type="button" value="Delete" class="formatButtonTable"/>
+<td><input type="button" value="Delete" name="DeleteShiftEvening" class="formatButtonTable"/>
 </td>
 </tr>
 </table>
@@ -110,7 +107,7 @@ Shifts <input type="button" value="Add" class="formatButton"/>
 </br>
 
 <div>
-<input type="button" value="Generate Schedule" class="StyleGenerateSchedule"/>
+<input type="button" value="Generate Schedule" name="GenerateScheduleEmployee" class="StyleGenerateSchedule"/>
 </div>
 </form>
 </body>
