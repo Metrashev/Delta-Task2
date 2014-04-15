@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -36,25 +36,18 @@
 </br>
 
 <div class="textStyle">
-Work places count: <select name="workPacesCount">
-  <option value="1">1</option>
-  </select>
-</div>
+Work places count: <input type="number" min="1" max="4" step="1" value="1" name="WorkPlacesCount"></div>
 <br>
 </br>
 <div class="textStyle">
-Employee min work hours (for 2 weeks): <select name="EmployeeMinWorkHours">
-  <option value="1">1</option>
-  
-</select>
+Employee min work hours (for 2 weeks): <input type="number" min="20" max="40" step="" value="20" name="EmployeeMinHours"/>
+
 
 </div>
 <br>
 </br>
 <div class="textStyle">
-Employee max work hours (for 2 weeks): <select name="EmployeeMaxWorkHours">
-<option value="1">1</option>
-</select>
+Employee max work hours (for 2 weeks): <input type="number" min="20" max="40" step="" value="20" name="EmployeeMaxHours"/>
 </div>
 <br>
 </br>
@@ -112,3 +105,4 @@ Shifts <input type="button" value="Add" name="AddShifts" class="formatButton"/>
 </form>
 </body>
 </html>
+
