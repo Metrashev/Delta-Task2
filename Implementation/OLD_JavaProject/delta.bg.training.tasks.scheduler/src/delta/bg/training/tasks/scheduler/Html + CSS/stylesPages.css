@@ -1,4 +1,4 @@
-﻿.WorkDaysStyle {
+.WorkDaysStyle {
 	font-family: Tahoma;
 	font-size: x-large;
 	font-style: normal;
@@ -59,7 +59,7 @@
 }
 
 .StyleGenerateSchedule {
-	width: 150px;
+	width: 160px;
 	height: 50px;
 	border-radius: 20px;
 	background-position: center center;
